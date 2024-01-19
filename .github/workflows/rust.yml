@@ -21,9 +21,9 @@ jobs:
     - name: Run tests
       run: cargo test --verbose
     - name: Upload a Build Artifact
-  uses: actions/upload-artifact@v4.2.0
-  with:
-    # Artifact name
-    name: anime-rename
-    # A file, directory or wildcard pattern that describes what to upload
-    path: ./target/anime-rename
+    - uses: actions/upload-artifact@v4.2.0
+      with:
+        # Artifact name
+        name: anime-rename
+        # A file, directory or wildcard pattern that describes what to upload
+        path: ./target/anime-rename
