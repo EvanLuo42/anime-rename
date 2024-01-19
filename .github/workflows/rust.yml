@@ -25,4 +25,4 @@ jobs:
         # Artifact name
         name: anime-rename
         # A file, directory or wildcard pattern that describes what to upload
-        path: ./target/anime-rename
+        path: ./target/release/anime-rename
